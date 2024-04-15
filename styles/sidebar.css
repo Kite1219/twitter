@@ -1,0 +1,177 @@
+.side-bar {
+  width: 390px;
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.side-bar .container-twitter-logo {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.side-bar .container {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px 0px 0px;
+  width: 250px;
+}
+
+.side-bar .twitter-logo {
+  height: 26px;
+  width: 26px;
+  object-fit: cover;
+  margin: 15px 0px 25px 0px;
+}
+
+@media (max-width: 1032px) {
+  .side-bar {
+    width: 270px;
+  }
+  .personal-profile img, .personal-profile div{
+    display: none;
+  }
+}
+
+
+@media (max-width: 880px) {
+  body {
+    padding-left: 80px;
+  }
+  .main {
+    z-index: 100;
+  }
+  .side-bar .container-twitter-logo {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-left: 22px;
+  }
+
+  .side-bar {
+    align-items: start;
+    min-width: 0px;
+    width: 10px;
+    margin: 10px 0px 0px 0px;
+  }
+  .side-bar .container p {
+    display: none;
+  }
+
+  .side-bar .container {
+    width: 0px;
+  }
+
+  .side-bar .container .content-logo {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .post-button-container {
+    opacity: 0;
+  }
+}
+
+.container p {
+  background-color: black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 11px 20px 11px 10px;
+  font-size: 20px;
+  margin: 0px;
+  transition: background-color 0.15s;
+}
+
+.side-bar .container .content-logo {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  padding: 8px 20px 8px 20px;
+  background-color: black;
+  transition: background-color 0.15s;
+}
+
+.container:hover p , .container:hover .content-logo{
+  cursor: pointer;
+  background-color: rgba(99, 99, 99, 0.278);
+}
+
+.community {
+  font-weight: bold;
+}
+
+.post-button-container {
+  padding-top: 15px;
+  display: flex;
+  width: 250px;
+  align-items: center;
+}
+
+.post-button {
+  cursor: pointer;
+  display: block;
+  padding: 15px 90px 15px 90px;
+  border-radius: 50px;
+  font-size: 18px;
+  border:none;
+  background-color: rgb(0, 153, 255);
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.15s;
+}
+
+.post-button:hover{
+  background-color: rgb(0, 121, 202);
+}
+
+.personal-profile {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  margin-top: 25px;
+  padding: 15px 10px 15px 10px;
+  border-radius: 50px;
+  transition: background-color 0.15s;
+}
+
+.personal-profile:hover {
+  cursor: pointer;
+  background-color: rgb(29, 29, 29);
+}
+
+.personal-profile img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+.personal-profile .name-container .name {
+  font-weight: 500;
+  color: white;
+  padding-left: 10px;
+}
+
+.personal-profile .name-container .at-name {
+  color: gray;
+  font-weight: 300px;
+  padding-left: 10px;
+}
+
+.personal-profile .more {
+  color:white;
+  font-weight: bold;
+  padding-left: 0px;
+  margin-left: 40px;
+}

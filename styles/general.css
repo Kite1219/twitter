@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  padding: 50px 0px 200px 400px;
+  font-family: Roboto, Arial;
+  display: inline-block; 
+  margin: 0px;
+}
+.main {
+  border: solid 1px rgb(67, 67, 67);
+  border-top: none;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  column-gap: 30px;
+}
+
+@media (max-width: 1215px) {
+  .right-bar {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1032px) {
+  body {
+    padding-left: 276px;
+  }
+}

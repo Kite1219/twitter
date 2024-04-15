@@ -1,0 +1,229 @@
+.main {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+.profile-container {
+  position: relative;
+}
+.thumbnail {
+  width: 100%;
+}
+
+.profile-container .avatar {
+  position: absolute;
+  left: 15px;
+  bottom: -60px;
+  height: 128px;
+  border-radius: 100px;
+  border: black 2px solid
+}
+
+.follow-button-container {
+  display: flex;
+  justify-content: right;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.more-button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 36px;
+  border: solid 1px rgb(41, 43, 42);
+  padding: 7px 8px 7px 8px;
+  cursor: pointer;
+}
+
+.more-button:hover {
+  background-color: rgb(31, 31, 31);
+}
+.follow-button {
+  background-color: white;
+  border: none;
+  border-radius: 36px;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0px 10px 0px 10px;
+  padding: 10px 18px 10px 18px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.follow-button:hover {
+  cursor: pointer;
+  background-color: rgb(214, 214, 214);
+}
+
+.name-flex {
+  display: flex;
+  margin-top: 33px;
+}
+.information-container .name-flex .name {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 12px;
+}
+.information-container .name-flex .blue-check-mark {
+  height: 20px;
+  width: 20px;
+  padding-left: 4px;
+}
+.tag-name {
+  color: gray;
+  font-weight: 300;
+  padding: 5px 0px 0px 12px;
+  margin-bottom: 20px;
+}
+.descriptive-texts {
+  padding-left: 12px;
+  font-weight: 300;
+  color: white;
+}
+.us-flag {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -3px;
+}
+.dt-website-dates {
+  margin-top: 12px;
+  display: flex;
+}
+.website-link-container {
+  display: flex;
+  align-items: center;
+}
+.hyperlink {
+  padding-left: 12px;
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+.active-link {
+  text-decoration: none;
+}
+.website-link {
+  padding-left: 5px;
+  color: rgb(73, 131, 211);
+}
+.join-dates {
+  margin-left: 15px;
+  display: flex;
+}
+
+.join-dates img {
+  height: 17px;
+  margin-right: 5px;
+}
+.join-dates div {
+  color: gray;
+  font-size: 15px;
+}
+
+.followers-information {
+  margin: 12px 0px 0px 12px;
+  display: flex;
+  color: white;
+  column-gap: 18px;
+}
+
+.followers-information span {
+  color: gray;
+  font-size: 14px;
+  margin-left: -2px;
+}
+
+.tabs {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(41, 43, 42);
+}
+.tabs div {
+  padding: 20px 49px 20px 49px;
+}
+.posts {
+  color: white;
+  border-bottom: solid rgb(0, 149, 255);
+}
+.posts, .replies, .media, .likes {
+  transition: background-color 0.2s;
+}
+.posts:hover, .replies:hover, .media:hover, .likes:hover {
+  background-color:rgb(19, 19, 19);
+}
+
+.real-post {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 10px 15px 52px 15px;
+}
+
+.real-post .avatar {
+  background-color: azure;
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+.real-post .blue-check-mark {
+  width: 16px;
+  height: 13px;
+}
+
+.real-post .name-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-information-button {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 16px;
+  color: rgb(148, 148, 148);
+  font-size: 16px;
+  padding: 6px 9px 6px 9px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.more-information-button:hover {
+  background-color: rgb(13, 31, 66);
+  color: rgb(0, 123, 255);
+}
+
+.real-post .website {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.name-container span {
+  color: gray;
+  font-size: 14px;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+}
+
+.real-post a {
+  text-decoration: none;
+  color: rgb(46, 123, 212);
+  font-weight: 300;
+}
+
+.post-image {
+  width: 465px;
+  border-radius: 20px;
+}

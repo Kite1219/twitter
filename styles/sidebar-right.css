@@ -1,0 +1,187 @@
+.suggestion {
+  margin-top: 15px;
+  padding: 12px 15px 15px 15px;
+  background-color: rgb(20, 20, 21);
+  width: 320px;
+  height: 284px;
+  border-radius: 20px;
+}
+
+.suggestion-title {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.suggestion-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.suggestion img {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.suggestion-name-box {
+  display: flex;
+  align-items: center;
+}
+.suggestion-name-box .suggestion-check-mark {
+  margin-left: 2px;
+  height: 20px;
+  width: 20px;
+}
+.suggestion-name {
+  font-weight: 13px;
+  color: white;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.suggestion-tag-name {
+  margin-top: 2px;
+  color: rgb(94, 90, 102);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.suggestion-check-mark {
+  width: 10px;
+}
+
+.suggestion button {
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0px 20px 0px 20px;
+  margin-left: 78px;
+  height: 35px;
+  transition: background-color 0.15s;
+}
+
+.suggestion button:hover {
+  cursor: pointer;
+  background-color: rgb(204, 204, 204);
+}
+
+.suggestion-profile .suggestion-follow-button-2 {
+  margin-left: 85px;
+}
+
+.suggestion-profile .suggestion-follow-button-3 {
+  margin-left: 46px;
+}
+
+.show-more-container {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-left: -14px;
+  width: 329px;
+  height: 60px;
+  color: rgb(0, 179, 255);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: background-color 0.15s;
+}
+
+.show-more-container:hover {
+  cursor: pointer;
+  background-color: rgb(56, 56, 56);
+}
+
+.show-more-container p {
+  margin: 0px;
+}
+
+.whatshappening-container {
+  background-color: rgb(20, 20, 21);
+  width: 318px;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: white;
+  padding: 12px 15px 15px 18px;
+  display: inline-block;
+}
+
+.whatshappening-container .title {
+  margin-bottom: 15px;
+  display: block;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.whatshappening-container img {
+  width: 79px;
+  height: 79px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 14px;
+  margin-bottom: 25px;
+}
+
+.content-box .main-information {
+  font-weight: 500;
+}
+
+.content-box .sub-information {
+  margin-top: 4px;
+  color: rgb(84, 84, 84);
+  font-size: 13px;
+}
+.content-box {
+  display: flex;
+}
+
+.trending-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.trending-title-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.trending-container .trending-name {
+  font-size: 13px;
+}
+
+.trending-container .trending-title-box .more {
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.15s;
+  padding: 0px 10px 0px 10px;
+}
+
+.trending-container .trending-title-box .more:hover {
+  background-color: rgb(41, 41, 41);
+}
+
+.first-trending {
+  font-weight: 500;
+}
+
+.first-trending-friends {
+  color: gray;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.first-trending-friends span {
+  color: rgb(0, 174, 255);
+}
